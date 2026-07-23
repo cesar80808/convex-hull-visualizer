@@ -1,6 +1,6 @@
 # Convex Hull Visualizer
 
-Step-by-step visualizer of three Convex Hull algorithms using Processing and the plotting library grafica: Jarvis March, Graham Scan and Monotone Chain. Developed as part of the Computational Geometry course at University of Guanajuato.
+Step-by-step visualizer of three Convex Hull algorithms using Processing and the plotting library Grafica: Jarvis March, Graham Scan and Monotone Chain. Developed as part of the Computational Geometry course at University of Guanajuato.
 
 ## Demo
 
@@ -53,3 +53,63 @@ The sorting in step 1 has an $O(n \log n)$ time complexity, while the following 
 
 ## Installation and usage
 
+### Install dependencies
+
+This project requires Processing and the plotting library "Grafica".
+
+1. **Install Processing.** Go to [https://processing.org/download](https://processing.org/download). Download and install Processing.
+2. **Install Grafica library.** Open the Processing IDE. Go to Sketch > Import library > Add library, then search for Grafica and click Install.
+
+### Clone repository
+
+#### Option 1. Using Git.
+
+Clone the repository to your local machine, running the following command in the Command line:
+
+```
+git clone https://github.com/cesar80808/convex-hull-visualizer.git
+```
+
+#### Option 2. Download ZIP.
+
+If you do not have Git installed, click the green Code button at the top right of the repository page on GitHub and select Download ZIP. Extract the files and open the folder in your terminal.
+
+### Run
+
+#### Fill input file
+
+Insert your input set of 2D points in `Shared/input.txt`, in the following format:
+
+- A line containing an integer `n` greater than 2, the number of points in the test set,
+- followed by `n` lines in the form `x y`, the coordinates of each point.
+
+For example:
+
+```
+15
+30 30
+50 60
+60 20
+70 45
+86 39
+112 60
+200 113
+250 50
+300 200
+130 240
+76 150
+47 76
+36 40
+33 35
+30 30
+```
+
+If the input file is empty, the algorithms will run on a random set of 10 to 30 points.
+
+#### Run sketches
+
+Open `CH-Graham-Scan/CH_Graham_Scan.pde`, `CH-Jarvis-March/CH_Jarvis_March.pde` or `CH-Monotone-Chain/CH_Monotone_Chain.pde` using Processing. Press the Run button on the top left in the Processing IDE. This will open a window containing the sketch. Interact with it by pressing any key.
+
+_**NOTE:** don't forget to select the sketch window! Try double-clicking on the window before interacting with it._
+
+After the convex hull has been found, the file `Shared/output.txt` will contain the $(x, y)$ coordinates of the points conforming the hull.
