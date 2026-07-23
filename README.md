@@ -4,9 +4,9 @@ Step-by-step visualizer of three Convex Hull algorithms using Processing and the
 
 ## Demo
 
-![Demo of the Jarvis March algorithm](IMG/CH-Jarvis-March-Demo.png)
-![Demo of the Graham Scan algorithm](IMG/CH-Graham-Scan-Demo.png)
-![Demo of the Monotone Chain algorithm](IMG/CH-Monotone-Chain-Demo.png)
+![Demo of the Jarvis March algorithm](IMG/CH-Jarvis-March-Demo.PNG)
+![Demo of the Graham Scan algorithm](IMG/CH-Graham-Scan-Demo.PNG)
+![Demo of the Monotone Chain algorithm](IMG/CH-Monotone-Chain-Demo.PNG)
 
 ## Algorithms
 
