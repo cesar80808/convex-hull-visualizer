@@ -33,7 +33,7 @@ The second algorithm is the [Graham Scan algorithm](https://en.wikipedia.org/wik
 4. While `CH` contains at least two points and `next_to_top(CH)`, `top(CH)` and `P[i]` perform a clockwise turn, do `pop(CH)`. That is, delete the last point on the stack `CH` until the new point `P[i]` forms a counter clockwise turn with the last two points on stack.
 5. Push `P[i]` to `CH`.
 
-After this, `CH` will contain the points of the convex hull in counter clockwise order. The time complexity for this algoritmh is $O(n \log n)$, for it requires sorting points according to polar angle and afterwards traversing all points a single time. The complexity of the former part ($O(n \log n)$) dominates the complexity of the latter ($O(n)$), producing the stated time complexity.
+After this, `CH` will contain the points of the convex hull in counter clockwise order. The time complexity for this algoritmh is $O(n \log n)$, for it requires sorting points according to polar angle and afterwards traversing all points a single time. The complexity of the former part ( $O(n \log n)$ ) dominates the complexity of the latter ( $O(n)$ ), producing the stated time complexity.
 
 ### Monotone Chain
 
